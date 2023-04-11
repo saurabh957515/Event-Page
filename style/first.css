@@ -58,6 +58,7 @@ margin: 20px auto;
     color: rgb(100, 157, 9);;}
     
 .headingDIV input{
+    cursor: pointer;
     color: white;
     margin: 18px auto;
     border-radius: 4px;
