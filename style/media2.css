@@ -1,0 +1,43 @@
+@import url(media1.css);
+
+@media  only screen and (max-width: 450px ) {
+    footer  .navFirstItems {
+      width: 90px;
+      position: sticky;
+      display: flex;
+      margin: 12px auto 0px auto;
+      padding: 0px;
+      display: flex;
+     justify-content: center;
+     font-size: small;
+    }
+    footer .navFirstItems>.FirstItems2>.list-items ul{
+      flex-wrap: nowrap;
+    }
+    .tooglebutton {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 0 2px;
+      padding: 0px 3px;
+    }
+    main{
+      background-color: orange ;
+      
+    }
+    .tooglebutton {
+      display: block;
+    }
+     .list-items {
+      display: none;
+    }
+    }
+    
+@media only screen and (min-width:450px  ) {
+    .list-items {
+      display: block;
+    }
+  }
+    
+  

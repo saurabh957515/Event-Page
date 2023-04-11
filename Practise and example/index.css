@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+ .heading1{ 
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+        text-align: center;
+  
+    }
+        header{
+          
+            border: 1px solid blue;
+            width: 100%;
+            height: 20%;
+            background-color: orange;
+            align-items: center;
+            margin-right: 50px;
+            display: flex;
+            
+         
+        }
+
+     
+       .navbar{
+        
+        color: white;
+        padding-top: 10px;
+    
+    }
+
+.conf{
+    width: 180px;
+    border: 1px solid red;
+    display: inline block;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    float: left;
+    
+}
+.aug{ 
+    margin-top: 20px;
+    width: 800px;
+    border: 1px solid black;
+  display: inline block;
+  
+}
+    .navbar li{
+            
+        display: inline;
+        padding: 30px;
+        padding-top: 30px;
+        }
+        
+.para{
+    color: black;
+    margin-top: 20px;
+    float: right;
+}
+    .para h4{
+        color: green;
+    }
+
+    .footer{
+        background-color: gray;
+    }
+    .event1{
+       
+        float:left; 
+             
+                width:25%;
+                height:280px;
+
+    }
+
+    .event2{
+               float:left; 
+                width:50%;
+                height:280px;
+    }
+
+
+    .event3{
+        float:right;
+         
+                width:25%;
+                height:280px;
+    }
+
+    .img{
+        width: 220px;
+        height: 200px;
+    }
+    .footer{
+        position:  relative;
+        margin-top:300px;
+    }
+
+    .aaron{
+
+
+        border: 1px solid black;
+  
+        margin: 15%;
+        margin-top: 15px;
+    }
+   .aaron img{
+    float: right;
+
+   }

@@ -1,0 +1,23 @@
+.tooglebutton div {
+    width: 23px;
+    height: 3px;
+    background-color: rgb(165, 204, 213);
+    margin: 3px 0;
+  }
+  
+  .tooglebutton{
+    background-color: #2f2f3c00;
+    position: relative;
+    cursor: pointer;
+    width: 23px;
+    height: 21px;
+    padding: 1px 2px 9px inherit;
+    padding: 1px 2px 9px 3px;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    border: 1px solid rgb(157, 168, 184);
+  }

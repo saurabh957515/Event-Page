@@ -1,0 +1,104 @@
+@import url(style.css);
+@media  only screen and (max-width: 903px) {
+ 
+    main{
+        background-color: rgb(19, 230, 96);
+    }
+    .my-table td:first-child {
+            background-color: #932c28;
+            padding: 6px;
+        }
+    .content{
+      flex-wrap: wrap;
+       /* margin: 0px auto ; */
+    }
+     .content div{
+      display: flex;
+      justify-self: center;
+      align-items: center;
+      flex-direction: column;
+  
+     }
+     .navFirstItems {
+      width: auto;
+      position: sticky;
+      display: flex;
+      margin: 12px auto 0px auto;
+      padding: 0px;
+      flex-wrap: wrap;
+      display: flex;
+     justify-content: center;
+     font-size: small;
+  
+  }
+  .heading1{
+    font-size: small;
+    text-align: center;
+  }
+  .list-items ul, li{
+    flex-wrap: wrap;
+    margin: 4px 11px;
+  }
+  .headingDIV h4{
+    margin: 0px auto 4px auto;
+    font-size: 1.4em
+  }
+  .headingDIV {
+    font-size: small;
+    text-align: center;
+    width: auto;
+    margin: 0px auto;
+  }
+  .headingDIV input{
+    margin: 10px auto;
+    padding: 4px;
+  }
+  .speaker1, .speaker2 {
+    width: 80vw;
+    display: flex;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .circle-container {
+    width: 212px;
+    height: 212px;
+    margin: 1px auto;
+  
+  }
+  .guestHeading {
+    width: auto;
+  }
+  .content h2{
+    font-size: 1.2em;
+  }
+  .form input {
+    width: 154px;
+    height: 23px;
+    
+  }
+  
+  .form-items textarea {
+  resize: vertical;
+  width: 169px;
+  min-height: 150px;
+  max-height: 350px;
+  }
+  
+  #button {
+    color: white;
+    background-color: #3d3de6b8;
+    border: 1px solid black;
+    width: 83px;
+    height: 33px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 8px;
+    margin: 12px auto;
+  }
+  
+  #list-items {
+    display: block;
+  }
+}

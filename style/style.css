@@ -1,0 +1,105 @@
+@import url(first.css);
+@import url(button.css);
+.tooglebutton {
+  display: none;
+} 
+#list-items {
+  display: block;
+}
+.newDiv{
+    background-color: #dcb75f;
+    width: 100%;
+    display: inline-block;
+}
+.speaker1,.speaker2{
+    width: 80vw;
+    display: flex;
+    margin: 20px auto;
+    flex-wrap: nowrap;
+}
+.guestHeading{
+    width: 60vw;
+}
+.circle-container {
+    width: 270px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('your-image-url.jpg');
+    background-size: cover;
+    margin: 40px auto;
+  }
+.guestDesc{
+    color: lightblue;
+}
+
+.my-table{
+    /* background-color: orange ; */
+    padding: 20px;
+    margin: 25px auto;
+    width: 70vw;
+
+}
+.my-table td:first-child {
+    color: white;
+    text-align: right;
+    background-color: #790404;
+    padding: 42px;
+  }
+  
+
+  .my-table td:not(:first-child) {
+    background-color: #a8e229;
+    font-size: 14px;
+    border-bottom: 2px solid #090909;
+
+  }
+  .form div{
+    margin: 12px 0;
+  }
+  .form input{
+    width: 250px;
+    height: 25px;
+    margin: 4px 0;
+    display: block;
+  }
+  .form {
+    display: flex;
+     margin: auto 14px;
+
+  }
+  .info{
+      margin: auto 12px;
+  }
+
+  .form-items textarea {
+
+    resize: both;
+max-width: 400px;
+max-height: 200px;
+min-width: 200px;
+min-height: 100px;
+   
+  }
+
+  #button{
+    color: white;
+ background-color: #2f2f3cb8;
+ /* border: 1px solid black; */
+ width: 106px;
+ height: 35px;
+ border-radius: 4px;
+ cursor: pointer;
+ padding: 10px 8px;
+}
+.attend  li{
+  justify-content: left;
+}
+
+@import url(media1.css);
+@import url(media2.css);
+
+/* blinking effedct when you don't set the border in the button 
