@@ -1,9 +1,7 @@
 @import url(style.css);
 @media  only screen and (max-width: 903px) {
  
-    main{
-        background-color: rgb(19, 230, 96);
-    }
+   
     .my-table td:first-child {
             background-color: #932c28;
             padding: 6px;
