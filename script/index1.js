@@ -34,14 +34,15 @@ fetch("/db.json")
       // console.log(data);
       const newElement = document.createElement("div");
       newElement.innerHTML = DataRe(data);
+      console.log(newElement)
       content.appendChild(newElement);
     });
   });
-function DataRe({ SpeakerName,photo,  SpeakerDesc }) {
+function DataRe({ SpeakerName , photo , SpeakerDesc,title }) {
   return `
     <h2 class="imgHeading">${SpeakerName}</h2>
     <img src="${photo}" alt="">
-    <h2 class="eventTitle">Good Man</h2>
+    <h2 class="eventTitle">${title}</h2>
     <p class="description">${SpeakerDesc}</p>
   `;
 }
@@ -77,7 +78,7 @@ function DataRe({ SpeakerName,photo,  SpeakerDesc }) {
 }
 
 
-console.log(window.location.href)
+// console.log(window.location.href)
 
 
 

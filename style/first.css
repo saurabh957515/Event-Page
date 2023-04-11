@@ -63,8 +63,11 @@ margin: 20px auto;
     margin: 18px auto;
     border-radius: 4px;
     padding: 11px;
-    background-color:#2f2f3c00;;
+    background-color:#2f2f3c00;
 } 
+.headingDIV input:hover{
+   border: 1 px solid white;
+}
 .content{
     display: flex;
     margin: 12px 34px;
